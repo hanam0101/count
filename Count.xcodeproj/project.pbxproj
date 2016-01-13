@@ -13,6 +13,7 @@
 		5B9AD6D31BE0DCCF00FBC4AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AD6D21BE0DCCF00FBC4AA /* Images.xcassets */; };
 		5B9AD6D61BE0DCCF00FBC4AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AD6D41BE0DCCF00FBC4AA /* LaunchScreen.xib */; };
 		5B9AD6E21BE0DCCF00FBC4AA /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AD6E11BE0DCCF00FBC4AA /* CountTests.swift */; };
+		5B9AD6EC1BE0DF6300FBC4AA /* newyork.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9AD6EB1BE0DF6300FBC4AA /* newyork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5B9AD6DB1BE0DCCF00FBC4AA /* CountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9AD6E01BE0DCCF00FBC4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B9AD6E11BE0DCCF00FBC4AA /* CountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTests.swift; sourceTree = "<group>"; };
+		5B9AD6EB1BE0DF6300FBC4AA /* newyork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newyork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5B9AD6C81BE0DCCF00FBC4AA /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				5B9AD6EB1BE0DF6300FBC4AA /* newyork.png */,
 				5B9AD6CB1BE0DCCF00FBC4AA /* AppDelegate.swift */,
 				5B9AD6CD1BE0DCCF00FBC4AA /* ViewController.swift */,
 				5B9AD6CF1BE0DCCF00FBC4AA /* Main.storyboard */,
@@ -156,6 +159,7 @@
 		5B9AD6BE1BE0DCCF00FBC4AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = shin;
 				TargetAttributes = {
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B9AD6D11BE0DCCF00FBC4AA /* Main.storyboard in Resources */,
+				5B9AD6EC1BE0DF6300FBC4AA /* newyork.png in Resources */,
 				5B9AD6D61BE0DCCF00FBC4AA /* LaunchScreen.xib in Resources */,
 				5B9AD6D31BE0DCCF00FBC4AA /* Images.xcassets in Resources */,
 			);
@@ -409,6 +414,7 @@
 				5B9AD6E71BE0DCCF00FBC4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9AD6E81BE0DCCF00FBC4AA /* Build configuration list for PBXNativeTarget "CountTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +423,7 @@
 				5B9AD6EA1BE0DCCF00FBC4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
